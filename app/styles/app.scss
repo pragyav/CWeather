@@ -1,0 +1,128 @@
+$space-large: 2.5rem;
+$title-color: #2196F3;
+$nav-bar-color: #64B5F6;
+$light-blue: #BBDEFB;
+
+.page-title {
+  color: $title-color;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+input[type=search] {
+  box-shadow: none;
+}
+
+.top-bar {
+	display: flex;
+}
+
+.top-bar-middle {
+	margin: auto;
+	color: white;
+}
+
+.top-bar, .top-bar ul {
+  background-color: $nav-bar-color;
+}
+
+.menu li {
+  color: $light-blue;
+  a {
+    color: white;
+  }
+}
+
+.menu li .button {
+  color: $title-color;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.custom-search-class {
+  border-radius: 5px;
+}
+
+.condition-thunderstorm {
+	background-image: url('https://source.unsplash.com/td7G4W1HSIE');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.condition-drizzle {
+	background-image: url('https://source.unsplash.com/x8xsbx4zfYs');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.condition-rain {
+	background-image: url('https://source.unsplash.com/6B9y2VdJy_k');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.condition-snow {
+	background-image: url('https://source.unsplash.com/67t2GJcD5PI');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.condition-atmosphere {
+	background-image: url('https://source.unsplash.com/ZSI-wuA49T0');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.condition-clouds {
+	background-image: url('https://source.unsplash.com/RmNAdoJNFJs');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.weather-form {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px 40px;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+.forecast-title {
+	color: $title-color;
+  margin-top: $space-large;
+}
+
+.forecast-container {
+	border: 1px solid #79848c;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.weather-icon {
+	font-size: 2rem;
+}
