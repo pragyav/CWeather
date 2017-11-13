@@ -1,5 +1,8 @@
 ### Weather Alert Application
-**Find the current weather and 5 day forecast with Alert of any city with this web app**
+**Find the current weather and 5 day forecast with an Alert of any city with this web app**
+
+![cweather](https://user-images.githubusercontent.com/2385925/32725282-1c3eff4e-c87d-11e7-8a45-adc479293384.png)
+
 -------------
 
 Simple [React](https://facebook.github.io/react/) web application written with jsx that returns the current weather. The app utilizes:
