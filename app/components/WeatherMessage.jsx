@@ -30,7 +30,7 @@ export default class WeatherMessage extends Component {
 		return (
 			<div>
 				<h3 className="text-center">It is {Math.round(temp)}&deg;{tempType} in {location}</h3>
-				<h3 className="text-center">{this.generateTip()}</h3>
+				<h3 className="alert-text">{this.generateTip()}</h3>
 			</div>
 		);
 	}
